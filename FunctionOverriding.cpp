@@ -19,5 +19,7 @@ int main(){
     B obj;
     obj.disp();
     
+    obj.A::disp();
+    
     return 0;
 }
