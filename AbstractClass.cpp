@@ -3,9 +3,7 @@ using namespace std;
 
 class DataBase{
 public:
-    virtual void getName(){
-        cout<<" function of database class"<<endl;
-    }
+    virtual void getName()=0;
 };
 
 class Manager:public DataBase{
