@@ -11,7 +11,7 @@ public:
 
 class Emp : public Boss {
 public:
-	virtual void fun(int x = 1)
+	void fun(int x = 1)
 	{
 		cout << "Child: x = " << x << endl;
 	}
