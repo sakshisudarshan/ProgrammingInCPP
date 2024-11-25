@@ -36,7 +36,7 @@ public:
 };
 
 int main(){
-    Level1 *b=new Level1;
+    Level1 *b=new Level1();
     b->f1();
     b->f2();
     b->f3();
